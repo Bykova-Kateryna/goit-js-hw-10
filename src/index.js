@@ -40,7 +40,7 @@ function createList(array){
 };
 
 function generateList (allArray){
-    result = allArray.reduce((acc, array) => acc + createList(array), "");
+    const result = allArray.reduce((acc, array) => acc + createList(array), "");
     return listCountry.innerHTML = result;
 }
 

@@ -18,3 +18,33 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.list-flag{
+  margin-right: 15px;
+}
+.info-item{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.info-text{
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-left: 15px;
+
+}
+.country-tittle{
+  margin: 0;
+  display: flex;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
